@@ -133,7 +133,7 @@ fn display_file_content(content: &str) -> io::Result<()> {
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = Command::new("Rust Typer")
         .version("1.0")
-        .author("Your Name <your.email@example.com>")
+        .author("janpaul.pl")
         .about("Displays a random file's content from GitHub or a local directory")
         .arg(
             Arg::new("local")
