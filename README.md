@@ -34,13 +34,17 @@ cargo install rust-typer
 
 By default, Rust Typer fetches and displays random Rust files from the official Rust GitHub repository. To start playing:
 
+```
 cargo run
+```
 
 ### Use a Local Directory
 
 You can also specify a local directory if you want to play the game with your own files:
 
+```
 cargo run -- --local /path/to/local/directory
+```
 
 ### Interactive Gameplay
 
